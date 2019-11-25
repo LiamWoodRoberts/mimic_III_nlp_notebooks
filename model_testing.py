@@ -156,9 +156,9 @@ def train_and_eval_BiLSTM(data_file,save_file,save=True,embed_size=100,epochs=50
 
 if __name__ == "__main__":
     # Testing for train_and_eval functions
-    data_file = "./data/Medical NER V2 2000.tsv"
+    data_file = "./data/Medical NER V2 4000.tsv"
     results_file = "./data/model_results.csv"
     heading("Training CRF Model...")
     train_and_eval_crf(data_file,results_file)
-    heading("Training BiLSTM Model...")
-    train_and_eval_BiLSTM(data_file,results_file)
+    # heading("Training BiLSTM Model...")
+    # train_and_eval_BiLSTM(data_file,results_file)
